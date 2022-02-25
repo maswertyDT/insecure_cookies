@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  insecure_cookies:
+    build: .
+    environment:
+      - FLAG=flag{I2_1t_Co0k132_t4@t_U_S33k??}
+    ports:
+      - "8000:3000"
